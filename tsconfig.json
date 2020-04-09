@@ -19,6 +19,10 @@
     "noEmit": true,
     "jsx": "react"
   },
+  "baseUrl": ".",
+  "paths": {
+    "Images/*": ["Public/images/*"],
+  },
   "include": [
     "src"
   ]
